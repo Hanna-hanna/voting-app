@@ -54,7 +54,20 @@
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum adipisci delectus nihil enim sed ea temporibus quia, numquam, animi cumque velit eaque laborum nam libero deserunt illum soluta dolor? Harum, eius! Commodi autem dolore cumque magnam eius cupiditate laboriosam aliquam omnis veritatis incidunt vero maxime, consectetur eligendi sed aspernatur culpa et voluptatem. Odio excepturi atque corrupti consequatur officiis cupiditate ab cum minima est commodi voluptatibus, veniam fuga velit tempora neque rerum laborum! Officia est veniam veritatis eum tempore, voluptas amet consequatur molestiae, et laudantium autem aperiam provident iste natus magnam porro doloribus quae velit ipsum molestias eveniet quos! Officia?
             </div>
             <div class="w-175">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum dicta nam itaque laudantium debitis facilis voluptate ut numquam consequuntur iusto! Illum incidunt repudiandae mollitia possimus aut iste culpa molestias dolore et modi. Nulla eos, autem eligendi aliquam assumenda itaque. Alias obcaecati ullam quis fugiat sint eos enim a, error similique eum veritatis aspernatur nemo temporibus ea tempora fuga quaerat voluptatum? Explicabo a odio eveniet maxime consectetur illo dolorum numquam, sunt quam voluptatibus tempora, consequuntur quas excepturi iure inventore incidunt animi fuga, totam reiciendis ducimus! Est officia soluta quibusdam voluptatem animi quam debitis at laboriosam? Eius sunt consequuntur aliquam hic quas aliquid iusto expedita saepe? Quibusdam autem, sit eligendi nihil pariatur iusto, beatae aliquam quae doloribus laborum velit, exercitationem omnis dolorum atque quaerat facere veniam quas. Eveniet quod quidem atque voluptates corrupti. Officiis, nihil reprehenderit architecto perferendis iure rerum autem, tenetur iste sed quod cum sit laboriosam nesciunt unde quidem est earum commodi. Autem facilis possimus velit tempore vitae magnam et non harum, alias tenetur recusandae nesciunt iusto eligendi maxime iure doloribus ipsa repudiandae cumque officia beatae veniam laboriosam. Itaque, maxime. Laudantium sunt reprehenderit harum? Corrupti nihil omnis excepturi hic accusamus reiciendis voluptatem explicabo. Quibusdam sequi eveniet hic sit, expedita dolorum.
+                <nav class="flex items-center justify-between text-xs">
+                    <ul class="flex uppercase font-semibold border-b-4 pb-3 space-x-10">
+                        <li><a href="" class="border-b-4 pb-3 border-blue">All Ideas (87)</a></li>
+                        <li><a href="" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">Considering (6)</a></li>
+                        <li><a href="" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">In Progress (1)</a></li>
+                    </ul>
+                    <ul class="flex uppercase font-semibold border-b-4 pb-3 space-x-10">
+                        <li><a href="" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">Implemented (10)</a></li>
+                        <li><a href="" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">Closed (55)</a></li>
+                    </ul>
+                </nav>
+                <div class="mt-8">
+                    {{ $slot }}
+                </div>
             </div>
        </main>
     </body>
